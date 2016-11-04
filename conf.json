@@ -1,0 +1,22 @@
+{
+    "api": "https://api.taiga.io/api/v1/",
+    "subscriptionsAPI": "https://subscriptions.taiga.io/api/v1/",
+    "stripeKey": "pk_live_dx8gxpc0HrNeyMZBwZM1apOc",
+    "quadernoKey": "pk_live_Kzy7prCujY3yAxXxVJhf",
+    "eventsUrl": "wss://api.taiga.io/events",
+    "tribeHost": "https://tribe.taiga.io",
+    "debug": "false",
+    "publicRegisterEnabled": true,
+    "feedbackEnabled": true,
+    "privacyPolicyUrl": "https://taiga.io/privacy-policy.html",
+    "termsOfServiceUrl": "https://taiga.io/terms-of-service.html",
+    "maxUploadFileSize": 104857600,
+    "ravenConfig": null,
+    "gitHubClientId": "6b350db81d47406377cf",
+    "contribPlugins": [
+        "/plugins/github-auth/github-auth.json",
+        "/plugins/hipchat/hipchat.json",
+        "/plugins/mailchimp-subscription/mailchimp-subscription.json",
+        "/plugins/slack/slack.json"
+    ]
+}

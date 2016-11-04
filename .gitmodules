@@ -1,0 +1,18 @@
+[submodule "taiga-front-dist"]
+	path = taiga-front-dist
+	url = https://github.com/taigaio/taiga-front-dist
+[submodule "plugins/taiga-contrib-slack"]
+	path = plugins/taiga-contrib-slack
+	url = https://github.com/taigaio/taiga-contrib-slack
+[submodule "plugins/taiga-contrib-hipchat"]
+	path = plugins/taiga-contrib-hipchat
+	url = https://github.com/taigaio/taiga-contrib-hipchat
+[submodule "plugins/taiga-contrib-github-auth"]
+	path = plugins/taiga-contrib-github-auth
+	url = https://github.com/taigaio/taiga-contrib-github-auth
+[submodule "plugins/taiga-contrib-mailchimp-subscription"]
+	path = plugins/taiga-contrib-mailchimp-subscription
+	url = https://github.com/taigaio/taiga-contrib-mailchimp-subscription
+[submodule "plugins/taiga-contrib-cookie-warning"]
+	path = plugins/taiga-contrib-cookie-warning
+	url = https://github.com/taigaio/taiga-contrib-cookie-warning
