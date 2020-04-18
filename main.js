@@ -23,9 +23,10 @@ function interceptUrls(request, callback) {
 
 function createWindow () {
   protocol.interceptFileProtocol("file", interceptUrls)
+  let opts = {width: 800, height: 600, 'webPreferences': {'nodeIntegration': false}, icon: __dirname + '/taiga.ico'}
 
   // Create the browser window.
-  win = new BrowserWindow({width: 800, height: 600, 'webPreferences': {'nodeIntegration': false}})
+  win = new BrowserWindow(opts)
 
   // Open the DevTools.
   win.webContents.openDevTools()
