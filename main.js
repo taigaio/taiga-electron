@@ -29,7 +29,6 @@ function createWindow () {
 
   // Open the DevTools.
   win.webContents.openDevTools()
-  win.setMenu(null)
 
   // and load the index.html of the app.
   root_url = url.format({
@@ -53,6 +52,11 @@ function createWindow () {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
+
+// Disable Menus also in new windows
+app.on('browser-window-created',function(e,window) {
+       window.setMenu(null);
+});
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
