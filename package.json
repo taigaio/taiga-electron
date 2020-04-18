@@ -8,6 +8,9 @@
     "Project Management",
     "Github"
   ],
+  "dependencies": {
+    "electron-config": "2.0.0"
+  },
   "author": "Kaleidos OpenSource SL",
   "licenses": [
     {
